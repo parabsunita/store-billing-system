@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-router.use('/merchant', require('../modules/merchant/merchant_routes'));
+router.use('/merchants', require('../modules/merchant/merchant_routes'));
 router.use('/vendors', require('../modules/vendor/vendor_routes'));
 router.use('/materials', require('../modules/material/material_routes'));
 router.use('/bills', require('../modules/bill/bill_routes'));
